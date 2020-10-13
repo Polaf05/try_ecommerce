@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../Style/index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EbooKing</title>
+</head>
+
+<body>
+    <div class="grid-container">
+        <header class="header">
+            <div class="brand">
+                <button onclick="openSide()">
+                    &#9776;
+                </button>
+                <a href="index.html">EbooKing</a>
+            </div>
+            <div class="header-links">
+                <a href="cart.html">Cart</a>
+                <a href="signup.html">Sign Up</a>
+            </div>
+        </header>
+        <aside class="sidebar">
+            <h3>Categories</h3>
+            <button class="sidebar_close_btn" onclick="closeSide()">X</button>
+            <ul>
+                <li>
+                    <a href="index.html">Pdf</a>
+                </li>
+                <li>
+                    <a href="index.html">Ebooks</a>
+                </li>
+            </ul>
+        </aside>
+        <main class="main">
+            <div class="content">
+                <ul class="products">
+                    <li>
+                        <div class="product">
+                            <img src="../Style/images/products/p1.jpg" alt="product1" class="product_img">
+                            <div class="product_name">
+                                <a href="product.html">Kiben</a>
+                            </div>
+                            <div class="product_brand">Gucci</div>
+                            <div class="product_price">₱50,000</div>
+                            <div class="product_rating">5 Stars (500 reviews)</div>
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="product">
+                            <img src="../Style/images/products/p1.jpg" alt="product1" class="product_img">
+                            <div class="product_name">
+                                <a href="product.html">Kiben</a>
+                            </div>
+                            <div class="product_brand">Gucci</div>
+                            <div class="product_price">₱50,000</div>
+                            <div class="product_rating">5 Stars (500 reviews)</div>
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="product">
+                            <img src="../Style/images/products/p1.jpg" alt="product1" class="product_img">
+                            <div class="product_name">
+                                <a href="product.html">Kiben</a>
+                            </div>
+                            <div class="product_brand">Gucci</div>
+                            <div class="product_price">₱50,000</div>
+                            <div class="product_rating">5 Stars (500 reviews)</div>
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="product">
+                            <img src="../Style/images/products/p1.jpg" alt="product1" class="product_img">
+                            <div class="product_name">
+                                <a href="product.html">Kiben</a>
+                            </div>
+                            <div class="product_brand">Gucci</div>
+                            <div class="product_price">₱50,000</div>
+                            <div class="product_rating">5 Stars (500 reviews)</div>
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="product">
+                            <img src="../Style/images/products/p1.jpg" alt="product1" class="product_img">
+                            <div class="product_name">
+                                <a href="product.html">Kiben</a>
+                            </div>
+                            <div class="product_brand">Gucci</div>
+                            <div class="product_price">₱50,000</div>
+                            <div class="product_rating">5 Stars (500 reviews)</div>
+
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </main>
+        <footer class="footer">
+            Noice Noice
+        </footer>
+    </div>
+
+    <script>
+        function openSide() {
+            document.querySelector(".sidebar").classList.add("open");
+        }
+
+        function closeSide() {
+            document.querySelector(".sidebar").classList.remove("open");
+        }
+    </script>
+
+</body>
+
+</html>
